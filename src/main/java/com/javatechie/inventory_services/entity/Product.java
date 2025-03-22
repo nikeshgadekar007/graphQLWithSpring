@@ -20,10 +20,10 @@ public class Product {
     private Integer id;
     private String name;
     private String category;
-    private float price;
+    private Float price;
     private Integer stock;
 
-    public Product(String name, String category, float price, Integer stock) {
+    public Product(String name, String category, Float price, Integer stock) {
         this.name = name;
         this.category = category;
         this.price = price;
